@@ -1,0 +1,15 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - Reveal-SDK (7)
+
+DEPENDENCIES:
+  - FLAnimatedImage (= 1.0.12)
+  - Reveal-SDK (~> 7)
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Reveal-SDK: 564657bc66c93d2718b1c0121cdebe99d354ddab
+
+PODFILE CHECKSUM: b854e843b68a15dd52c1e2e141eb022c4b2582c7
+
+COCOAPODS: 1.2.0

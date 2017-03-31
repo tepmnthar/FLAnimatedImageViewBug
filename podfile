@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DigInFLAnimatedImageView' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+pod 'FLAnimatedImage', '1.0.12'
+pod 'Reveal-SDK','~> 7', :configurations => ['Debug']
+
+  # Pods for DigInFLAnimatedImageView
+
+  target 'DigInFLAnimatedImageViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DigInFLAnimatedImageViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
